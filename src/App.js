@@ -16,7 +16,7 @@ function App() {
             <button className="btn-col num">7</button>
             <button className="btn-col num">8</button>
             <button className="btn-col num">9</button>
-            <button className="btn-col num oprt">x</button>
+            <button className="btn-col oprt">x</button>
           </div>
           <div className="btn-row">
             <button className="btn-col num">4</button>
@@ -31,7 +31,10 @@ function App() {
             <button className="btn-col oprt">+</button>
           </div>
           <div className="btn-row">
-            <button className="btn-col num zero">0</button>
+            <button className="btn-col num zero">
+              <div className="box">0</div>
+              <div className="box"></div>
+            </button>
             <button className="btn-col num">.</button>
             <button className="btn-col oprt">=</button>
           </div>
